@@ -40,4 +40,12 @@ public class County extends DataSupport {
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
+    public String getCountyName() {
+        return coutyName;
+    }
+
+    public void setCountyName(String name) {
+    this.coutyName = coutyName;
+    }
 }
